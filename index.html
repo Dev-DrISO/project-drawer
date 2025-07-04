@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Sorteador</title>
+</head>
+<body>
+    <main>
+        <img class="img-logo" src="img/logo.png" alt="logo-sorteio">
+        <p>Sortear um número</p>
+        <section>
+            <input class="min" type="number" placeholder="Entre">
+            <input class="max" type="number" placeholder="E">
+        </section>
+        <p class="result"></p>
+        <button onclick="generateNumber()" class="button-main">Sortear</button>
+    </main>
+</body>
+<script src="main.js"></script>
+</html>
